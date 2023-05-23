@@ -9,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="font-beaufort leading-normal tracking-[2px] bg-[url('/background.webp')] bg-no-repeat bg-cover py-5">
+      <body className="font-beaufort leading-normal tracking-[2px] bg-[url('/background.webp')] bg-no-repeat bg-cover w-full h-full">
         <Navigation />
         {children}
       </body>

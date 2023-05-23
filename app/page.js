@@ -8,7 +8,7 @@ export default function Home() {
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
-        className="w-full border-gold shadow-progress"
+        className="lg:w-full w-screen border-gold shadow-progress"
         loading="lazy"
       />
     </main>

@@ -17,7 +17,7 @@ export const Navigation = () => {
   return (
     <nav>
       <div className="container lg:px-0 px-4 lg:mx-auto flex justify-between uppercase">
-        <div className="flex justify-center">
+        <div className="flex justify-center gap-2 lg:gap-0">
           <Link href="/">
             <Image
               src="/marvel-logo.webp"
