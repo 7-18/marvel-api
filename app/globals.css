@@ -18,6 +18,11 @@
   src: url("../fonts/beaufortforlol-regular.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "Spiegel";
+  src: url("../fonts/spiegel.ttf") format("opentype");
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
