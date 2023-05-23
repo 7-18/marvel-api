@@ -16,7 +16,7 @@ export const Navigation = () => {
 
   return (
     <nav>
-      <div className="container mx-auto flex justify-between uppercase">
+      <div className="container lg:px-0 px-4 lg:mx-auto flex justify-between uppercase">
         <div className="flex justify-center">
           <Link href="/">
             <Image
@@ -33,7 +33,7 @@ export const Navigation = () => {
                 pathname === href
                   ? "text-gold bg-navigation-hover"
                   : "text-white"
-              } hover:text-gold transition-colors flex items-center px-2 text-sm relative ml-6`}
+              } hover:text-gold transition-colors flex items-center px-2 lg:text-sm text-xs relative lg:ml-6 ml-0`}
               key={href}
               href={href}
             >
@@ -50,12 +50,12 @@ export const Navigation = () => {
             </Link>
           ))}
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center lg:gap-3 gap-2 lg:ml-0 ml-4">
           <button className="text-white hover:text-gold transition-colors">
-            <BsBellFill />
+            <BsBellFill size={24} />
           </button>
-          <button className="ml-4 text-white hover:text-gold transition-colors">
-            <RiSettings2Fill />
+          <button className="lg:ml-4 text-white hover:text-gold transition-colors">
+            <RiSettings2Fill size={24} />
           </button>
         </div>
       </div>
