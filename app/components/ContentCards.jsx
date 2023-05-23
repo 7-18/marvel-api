@@ -2,10 +2,10 @@ import { ImageCard } from "./ImageCard";
 import { ProgressCard } from "./ProgressCard";
 import { VideoCard } from "./VideoCard";
 
-export const ContentCards = () => {
+export const ContentCards = ({ selected }) => {
   return (
-    <div className="flex gap-5">
-      <ProgressCard />
+    <div className="lg:grid lg:grid-cols-3 gap-5 flex flex-col px-4 lg:px-10 mt-5 lg:mt-0">
+      <ProgressCard character={selected} />
       <VideoCard />
       <ImageCard />
     </div>
