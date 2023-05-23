@@ -1,6 +1,5 @@
 import "./globals.css";
 import { Navigation } from "./components/Navigation";
-import { Inter } from "next/font/google";
 
 export const metadata = {
   title: "Marvel API",
@@ -10,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="font-beaufort leading-normal tracking-[2px] bg-[url('/background.webp')] bg-no-repeat bg-cover">
+      <body className="font-beaufort leading-normal tracking-[2px] bg-[url('/background.webp')] bg-no-repeat bg-cover py-5">
         <Navigation />
         {children}
       </body>
